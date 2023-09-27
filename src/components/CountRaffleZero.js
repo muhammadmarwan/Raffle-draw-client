@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 function SetRaffle() {
     const [selectedValue, setSelectedValue] = useState('1');
-    const [raffleValue, setRaffleValue] = useState('1'); // Initialize raffleValue with the default selected value
+    const [raffleValue, setRaffleValue] = useState('1');
     const [options, setOptions] = useState([]);
     const [successMessage, setSuccessMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');

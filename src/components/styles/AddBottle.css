@@ -44,7 +44,6 @@
     background-color: #0056b3;
   }
   
-  /* Responsive styles */
   @media screen and (max-width: 768px) {
     .add-bottle-container {
       max-width: 100%;
@@ -57,6 +56,6 @@
   }
 
   .form-group {
-    margin-bottom: 20px; /* Adjust the margin as needed */
+    margin-bottom: 20px;
   }
   
