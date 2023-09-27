@@ -1,0 +1,106 @@
+/* SetRaffle.css */
+
+.set-raffle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://www.beveragedaily.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/beveragedaily.com/news/processing-packaging/pepsico-redesigns-2l-bottles-for-the-first-time-in-30-years/11944941-1-eng-GB/PepsiCo-redesigns-2L-bottles-for-the-first-time-in-30-years.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .set-raffle-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .submit-button{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .add-bottle-button {
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .list-bottle-button {
+    position: absolute;
+    top: 50px;
+    right: 10px; 
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message,
+  .error-message {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: green; /* Change to your desired color */
+  }
+  
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px; /* Adjust the font size as needed */
+    background-repeat: no-repeat;
+    background-position: right center;
+    cursor: pointer;
+  }
+  
+  select::-ms-expand {
+    display: none; 
+  }
+  
